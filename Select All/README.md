@@ -20,7 +20,7 @@ In this problem,
 
 We need the all the attribute of the matched records from CITY table. We can use all-column wildcard (*) with SELECT clause with FROM clause for this . There is no condition so we gotta return all the records. 
 
-## Code 
+## Code (MYSQL)
 ```
 SELECT *
 FROM CITY;

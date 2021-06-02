@@ -21,7 +21,7 @@ where LAT_N is the northern latitude and LONG_W is the western longitude.
 
 We can Round our answer using ROUND() function . We can get the records where LAT_N > 38.7780 using WHERE clause and then order the result by LAT_N in ascending fashion and get the first element only using LIMIT . 
 
-## Code 
+## Code (MYSQL)
 ```
 SELECT ROUND(LONG_W,4) FROM STATION 
 WHERE 

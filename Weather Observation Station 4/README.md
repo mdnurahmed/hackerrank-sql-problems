@@ -24,7 +24,7 @@ In this problem,
 
 We only need the count . We can use COUNT() function and DISTINCT() function with SELECT clause for this. 
 
-## Code 
+## Code (MYSQL)
 ```
 SELECT COUNT(CITY) - COUNT(DISTINCT(CITY)) FROM STATION;
 ```

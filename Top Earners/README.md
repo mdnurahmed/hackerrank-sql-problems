@@ -23,7 +23,7 @@ In this problem, We could use GROUP BY clause with COUNT() .
 
 The GROUP BY statement groups rows that have the same values into summary rows . So while aggregate functions (COUNT(), MAX(), MIN(), SUM(), AVG()) returns total result like total sum ,total count , using aggregate function with group by returns a list where first, rows are grouped by some attribute and then aggregate functions are applied to each group .Meaning if we use aggregate functions  with GROUP BY like COUNT(attribute1) + GROUP BY attribute2 , it returns a list of items where each row is count of attribute1 that have attribute2. 
 
-## Code 
+## Code (MYSQL)
 ```
 SELECT months*salary,COUNT(months*salary) FROM Employee
 GROUP BY(months*salary)

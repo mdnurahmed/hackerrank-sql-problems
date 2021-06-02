@@ -21,7 +21,7 @@ where LAT_N is the northern latitude and LONG_W is the western longitude.
 
 We can avoid duplicate cities by using SELECT with DISTINCT() function. For city names that start with vowels we can use regex expression. 
 
-## Code 
+## Code (MYSQL)
 ```
 SELECT DISTINCT(CITY)
 FROM STATION 

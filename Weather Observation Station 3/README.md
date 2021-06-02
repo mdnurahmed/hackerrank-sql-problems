@@ -20,7 +20,7 @@ In this problem,
 
 We only need the CITY attribute of the matched records from STATION table. We can use SELECT clause with FROM clause for this.To avoid duplicates we can use DISTINCT function. The condition is where ID is even number meaning if we divide the IDs with 2 , the remainder should be 0 . We can do this using WHERE clause.  
 
-## Code 
+## Code (MYSQL)
 ```
 SELECT DISTINCT(CITY) 
 FROM STATION 

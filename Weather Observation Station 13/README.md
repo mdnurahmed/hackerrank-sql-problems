@@ -21,7 +21,7 @@ where LAT_N is the northern latitude and LONG_W is the western longitude.
 
 We can get the sum using SUM() function and truncate to 4 decimal places using ROUND function on top of that . 
 
-## Code 
+## Code (MYSQL)
 ```
 SELECT ROUND(SUM(LAT_N),4) FROM STATION 
 WHERE LAT_N > 38.7880 AND LAT_N < 137.2345;

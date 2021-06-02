@@ -33,7 +33,7 @@ You can write two separate queries to get the desired output. It need not be a s
 
 We can get the shortest and longest CITY name using LENGTH function with ORDER BY and LIMIT function. To get the lexographically smallest result when looking for shortest city name we have to order the result in ascending fashion in respect to length first and then city second.To get the lexographically smallest result when looking for longest city name we have to order the result by length only in descending fashion and then by city in ascending fashion.  
 
-## Code 
+## Code (MYSQL)
 ```
 SELECT CITY, LENGTH(CITY) FROM STATION
 ORDER BY LENGTH(CITY) DESC , CITY ASC

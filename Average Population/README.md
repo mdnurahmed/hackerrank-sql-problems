@@ -20,7 +20,7 @@ Input Format
 
 In this problem, We could use ROUND() function for rounding down to nearest integer.
 
-## Code 
+## Code (MYSQL)
 
 ```
 SELECT ROUND(AVG(POPULATION)) FROM CITY;

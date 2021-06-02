@@ -20,7 +20,7 @@ In this problem,
 We only need the NAME attribute of the matched records from CITY table. We can do this using SELECT clause with FROM clause.
 We need the records where COUNTRYCODE is USA, meaning the cities are American , POPULATION is greater than 120000.We can use the WHERE clause so that only records satisfying both conditions are returned.
 
-## Code 
+## Code (MYSQL)
 ```
 SELECT NAME
 FROM CITY

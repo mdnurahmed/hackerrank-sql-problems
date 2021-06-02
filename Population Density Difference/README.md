@@ -20,7 +20,7 @@ Input Format
 
 In this problem, We could use the built-in replace function . 
 
-## Code 
+## Code (MYSQL)
 using variables
 ```
 SET @maximum := (SELECT POPULATION FROM CITY ORDER BY POPULATION DESC LIMIT 1);
