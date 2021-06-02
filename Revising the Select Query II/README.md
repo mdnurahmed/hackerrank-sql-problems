@@ -16,8 +16,7 @@ The CITY table is described as follows:
 
 ## My Approach
 
-In this problem we have to 
-
+In this problem,
 We only need the NAME attribute of the matched records. We can do this using SELECT clause.
 We need the records where COUNTRYCODE is USA, meaning the cities are American , POPULATION is greater than 120000.We can use the WHERE clause so that only records satisfying both conditions are returned.
 
