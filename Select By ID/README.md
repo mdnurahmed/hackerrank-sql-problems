@@ -1,9 +1,9 @@
 # [Select All](https://www.hackerrank.com/challenges/select-all-sql/problem)
 
 ## Problem Description 
-Query all columns (attributes) for every row in the CITY table.
+Query all columns for a city in CITY with the ID 1661.
 
-The CITY table is described as follows: 
+The CITY table is described as follows:
 
 | Field                     | Type                       | 
 | --------------------------| ---------------------------|
@@ -18,10 +18,12 @@ The CITY table is described as follows:
 
 In this problem,
 
-We need the all the attribute of the matched records from CITY table. We can use all-column wildcard (*) with SELECT clause with FROM clause for this . There is no condition so we gotta return all the records. 
+We need the all the attribute of the matched records from CITY table. We can use all-column wildcard (*) with SELECT clause with FROM clause for this . The condition is where ID of the records are 1661 . We can do this using WHERE clause.  
 
 ## Code 
 ```
 SELECT *
-FROM CITY;
+FROM CITY
+WHERE 
+    ID=1661;
 ```
